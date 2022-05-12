@@ -1,0 +1,50 @@
+//设置常见屏幕属性，修改html的大小
+html {
+    font-size: 50px;
+}
+
+// 划分15份
+@no: 15;
+
+
+//320px
+@media screen and (min-width:320px) {
+    html {
+        font-size: (320px / @no);
+    }
+}
+
+//360px
+@media screen and (min-width:360px) {
+    html {
+        font-size: (360px / @no);
+    }
+}
+
+//375px
+@media screen and (min-width:375px) {
+    html {
+        font-size: (375px / @no);
+    }
+}
+
+//384px
+@media screen and (min-width:384px) {
+    html {
+        font-size: (384px / @no);
+    }
+}
+
+//400px
+@media screen and (min-width:400px) {
+    html {
+        font-size: (400px / @no);
+    }
+}
+
+//750px
+@media screen and (min-width:750px) {
+    html {
+        font-size: (750px / @no);
+    }
+}
